@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #ded7cd;
+	
+}
+
+div {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	
+}
+
+p,h1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-weight: 400;
+	font-style: normal;
+}
+
+.portfolie {
+	Font-size: 50px;
+	
+}
+
+.black {
+	background: black;
+	width: 450px;
+	height: 550px;
+	display: flex;
+	left: 200px;
+}
+
+
+.Mathilde {
+	color: #7f2622;
+	font-size: 80px;
+}
+
+
+.flexbox {
+	Background: black;
+	Display: flex;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.flexbox p {
+	Font-size: 25px;
+	background: lightgrey;
+	text-align: center;
+	width: 200;
+	margin: 2px;
+}
+* {
+	Margin: 0px;
+	padding: 0px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	
+}
+
+.menu-bar {
+	display: flex;
+	flex-direction: row;
+	Align-items: center;
+	justify-content: space-between;
+	background: #ded7cd;
+	Color: white;
+	Height: 110px;
+	padding: 1rem;
+	
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	
+}
+
+.menu > li{
+	padding: 10px;
+	overflow: hidden;
+	
+}
+
+.menu-box {
+	background: red;
+	height: 100%;
+	width: 30px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu-icon, .menu-icon::before, .menu-icon::after {
+	display: block;
+	Background: blue;
+	position: absolute;
+	height: 4px;
+	width: 30px;
+	transition: transform 400ms;
+	border-radius: 2px;
+}
+
+.menu-icon::before {
+	content: "";
+	margin-top: -8px;
+	
+}
+
+.menu-icon::after {
+	Content: "";
+	margin-top: 8px;
+	
+}
+
+.galleri {
+	font-size: 60px;
+	color: #7f2622
+}
+
